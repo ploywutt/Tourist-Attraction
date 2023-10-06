@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500&display=swap");
+
+:root {
+  background-color: snow;
+  font-family: "Kanit";
+  font-size: 16px;
+  font-weight: 300;
+  --myblue-color: #528dd7;
+  --myred-color: #ff6b74;
+  --myocean-color: #00bfba;
+  --mylightblue-color: #86daec;
+  --myorange-color: #ff9c4d;
+  --myyellow-color: #ffd664;
+  --myshell-color: #fff7e2;
+}

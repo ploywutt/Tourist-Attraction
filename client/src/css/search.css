@@ -1,0 +1,57 @@
+.title-img {
+  width: 400px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.sm-photo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.title {
+  color: black;
+}
+
+input {
+  height: 40px;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  border: dashed 2px var(--myorange-color);
+  font-size: 1rem;
+  color: slategray;
+}
+
+input::placeholder {
+  font-family: "Kanit";
+  color: lightgrey;
+}
+
+input:hover {
+  border: dashed 2px var(--myocean-color);
+}
+
+.travel {
+  width: 750px;
+}
+
+.add {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.data {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .travel {
+    width: 450px;
+  }
+  .tag {
+    justify-content: center;
+  }
+}
