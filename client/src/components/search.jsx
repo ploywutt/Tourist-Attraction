@@ -10,7 +10,7 @@ function SearchBar() {
   async function getData() {
     try {
       let result = await axios.get(
-        `http://localhost:4001/trips?keywords=${search}`
+        `https://tourist-attraction-server.onrender.com/trips?keywords=${search}`
       );
       console.log("keyword", search);
       console.log(result.data.data);
